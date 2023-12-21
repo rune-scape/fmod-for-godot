@@ -116,6 +116,7 @@ void FMODStudioEditorModule::_bind_methods()
 	ClassDB::bind_method(D_METHOD("play_event", "guid"), &FMODStudioEditorModule::play_event);
 	ClassDB::bind_method(D_METHOD("stop_events", "allow_fadeout"), &FMODStudioEditorModule::stop_events);
 	ClassDB::bind_method(D_METHOD("load_all_banks"), &FMODStudioEditorModule::load_all_banks);
+	ClassDB::bind_method(D_METHOD("unload_all_banks"), &FMODStudioEditorModule::unload_all_banks);
 	ClassDB::bind_method(D_METHOD("set_preview_parameter", "parameter_name", "value"),
 			&FMODStudioEditorModule::set_preview_parameter);
 
